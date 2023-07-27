@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+    
+    <head>
+        <meta charset="utf-8"/>
+        <title>POKEMON</title>
+         <!-- Conexion a CSS -->
+        <link rel ="stylesheet" type="text/css" href="css/estilos.css" href="css/fuentes.css">
+        <link rel="shortcut icon" href="imagenes/icon.png" />
+        <script src="js/pokemon.js">  </script>
+    </head> 
+    <body id="principal"> 
+
+        <header>  
+            <!-- POKEMON  <img class="ball" src="imagenes/icon_2.png" width="100px">  -->
+            <div class="logo">
+                <img src="imagenes/icon_2.png" alt="Logo Pokemon">
+                <h3 class="nombre-ball">POKEMON</h3>
+                
+            </div>
+            <section id="reiniciar">
+                <button id="Reiniciar"> Reiniciar </button>
+            </section>
+         </header>
+
+        <section id="Seleccion_Pokemon" >
+            <h1 >Elige Tu Pokemon</h1>
+
+           <div class="pokemones">
+            <p>
+                
+            </p>
+            <p>
+                <label for="blastoise">  </label>
+                <input type="radio" name="pkmn" id="blastoise"/>  
+                <article>
+                    <img src="imagenes/tarjetablast.jpg">
+                    <img class="imgblas" src="imagenes/blastoise.png" width="150px">
+                </article>
+
+            </p>
+
+            <p>
+                <label for="charizard">  </label>
+                <input type="radio" name="pkmn" id ="charizard" /> 
+                <article>
+                    <img src="imagenes/tarjetachariz.png">
+                    <img class="imgblas" src="imagenes/charizard.png" width="150px">
+                </article>
+           </p>
+            
+            <p>
+                <label for="venasaur">  </label>
+                <input type="radio" name="pkmn" id="venasaur">
+                <article>
+                    <img src="imagenes/tarjetaven.png">
+                    <img class="imgblas" src="imagenes/venasaur.png" width="150px">
+                </article>
+            </p>
+           
+            </div>
+            <button id="seleccionar_pkmn" > 
+                <img src="imagenes/iconlucha.png" width="100" height="100" >
+            </button>      
+           
+        </section>
+
+        <section id="Ataque">
+           
+            <h2 >Elige el Ataque </h2>
+
+            <p > <span id="nomPokemon">   </span>  <span id="vidasusu"> 3 </span> Vidas</p>
+            <p > <span id="nomPokemonEne">  </span> <span id="vidaspc"> 3 </span> Vidas (Rival) </p>
+            <p>
+                <button  id="seleccionar_fuego"> Fuego 🔥</button>
+                <button  id="seleccionar_agua"> Agua 💧</button>
+                <button  id="seleccionar_planta"> Planta 🌱</button>
+            </p> 
+            <!-- <section id="lucha" class="caja">
+            <img src="imagenes/iconlucha.png" >
+        <section id = "mensajes"> -->
+           
+        </section>
+        <section id="mensajes">
+        
+
+        </section>
+        
+        
+
+    </body>
+</html>
